@@ -10,9 +10,6 @@ sudo apt autoremove -y
 # Install Git
 sudo apt install git -y
 
-# Install VBox GuestAdd
-sudo apt-get install virtualbox-guest-additions-iso -y
-
 # Install Ansible
 sudo apt install software-properties-common -y
 sudo apt-add-repository --yes --update ppa:ansible/ansible
